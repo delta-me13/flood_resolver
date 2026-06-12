@@ -1,0 +1,23 @@
+[package]
+name = "flood_resolver"
+version = "0.1.0"
+authors = ["cyrene <mail@cyrene.fans> <firefly.sun@qq.com>"]
+edition = "2024"
+publish = false
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+calamine = "0.35.0"
+clap = { version = "4.6.1", features = ["derive"] }
+derive_builder = "0.20.2"
+enterpolation = "0.3.0"
+roots = "0.0.8"
+rust_xlsxwriter = "0.95.0"
+thiserror = "2.0.18"
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
+strip = "symbols"
