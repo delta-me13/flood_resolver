@@ -7,6 +7,15 @@ publish = false
 license = "MIT"
 readme = "README.md"
 
+[target.x86_64-unknown-linux-gnu]
+rustflags = ["-C", "target-cpu=x86-64-v3"]
+
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-cpu=x86-64-v3"]
+
+[target.x86_64-apple-darwin]
+rustflags = ["-C", "target-cpu=x86-64-v3"]
+
 [dependencies]
 calamine = "0.35.0"
 clap = { version = "4.6.1", features = ["derive"] }
@@ -21,3 +30,4 @@ lto = true
 opt-level = 3
 codegen-units = 1
 strip = "symbols"
+panic = "abort"

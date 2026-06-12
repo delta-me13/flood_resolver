@@ -4,8 +4,8 @@
 
 ---
 ## 如何下载
-1. **下载可执行文件**：点击 [这里](https://github.com/firefly123456/flood_resolver/releases) 寻找对应cpu架构与os类型, 或使用`cargo build -r`自行编译可执行文件。
-2. **下载 Excel 文件**：点击 [这里](https://github.com/firefly123456/flood_resolver/releases) 下载示例 Excel 文件 `e
+1. **下载可执行文件**：点击 [这里](https://github.com/delta-me13/flood_resolverreleases) 寻找对应cpu架构与os类型, 或使用`cargo build -r`自行编译可执行文件。
+2. **下载 Excel 文件**：点击 [这里](https://github.com/delta-me13/flood_resolver/releases) 下载示例 Excel 文件 `example.xlsx`。
 
 ## 目录
 
